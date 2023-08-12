@@ -1,0 +1,24 @@
+.difference{
+    height: 590px;
+    margin-top: 60px;
+    .img-diff{
+        width: 50%;
+    }
+    .text-diff{
+        width: 50%;
+        h3{
+            line-height: 80px;
+            margin-bottom: 140px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 35px;
+        }
+        a{
+            cursor: pointer;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}

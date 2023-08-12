@@ -1,3 +1,60 @@
-h1 {
-    color: blue;
+.first-screen {
+    height: 76vh;
+    .row{
+        position: relative;
+        nav{
+            .navbar-collapse{
+                margin-top: 10px;
+                justify-content: center;
+                .nav-link{
+                    padding-left: 50px;
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 18px;
+                    margin-top: 10px;
+                }
+                .navbar-brand{
+                    margin-left: 200px;
+                    margin-right: 200px;
+                }
+            }
+            
+            position: absolute;
+            
+        }
+        height: 800px;
+        .front-photo {
+            width: 50%;
+            padding: 0;  
+        }   
+        .front-text {
+            height: 733px;
+           padding: 0;
+            .front-box {
+                width: 600px;
+                height: 423px;
+                margin: 300px auto 0;
+                color: #fff;
+                h1{
+                    margin-bottom: 35px;
+                }
+                p{
+                    margin-bottom: 45px;
+                }
+                button{
+                    margin-left: 0;
+                    margin-bottom: 0;
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    font-size: 12px;
+                    line-height: 14px;
+                    width: 180px;
+                    height: 50px;
+                }
+            }
+                width: 50%;
+                background-color: #996B60;
+            
+        }
+    }
 }

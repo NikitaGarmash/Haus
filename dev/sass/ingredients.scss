@@ -1,0 +1,68 @@
+.ingredients {
+    hr{
+        margin-top: 120px;
+    }
+    margin-top: 60px;
+    height: 1030px;
+    text-align: center;
+
+    .ing-title {
+        
+        width: 705px;
+        margin: 0 auto 75px;
+        h2 {
+            line-height: 80px;
+            margin-bottom: 20px;
+        }
+        p{
+            margin-bottom: 45px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+
+    .col-md-4 {
+        .img-box{
+            position: relative;
+            .best-seller, .best-seller-2{
+                position: absolute;
+                left: 280px;
+                top: 30px;
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                background-color: #000;
+                color: #fff;
+                font-size: 12px;
+                line-height: 14px;
+                padding: 6px;
+                p{
+                    width: 58px;
+                    text-align: center;
+                    margin: 27px auto;
+                }
+            }
+        }
+        .info-box{
+            width: 382px;
+            padding-left: 25px;
+            h6{
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 28px;
+                margin-bottom: 20px;
+                
+            }
+            button{
+                width: 180px;
+                height: 50px;
+                color: #fff;
+                background-color: #000;
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+}

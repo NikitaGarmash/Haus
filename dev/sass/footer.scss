@@ -1,7 +1,40 @@
 footer{
-    height: 100px;
-    background: $secondary-color;
+    
+    height: 617px;
+    background: #000;
     margin-top: auto;
-}
+    padding: 60px;
+    color: #fff;
+    .contact{
+        width: 52%;
+        h4{
+            margin-bottom: 30px;
+        }
+        p{
+            width: 425px;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    .explore, .follow, .drop{
+        width: 16%;
+        span{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        p{
+            margin-top: 20px;
+            color: #ffffff9d;
+        }
+    }
+    }
+    .down-line{
+        display: flex;
+        p{
+            margin-top: 150px;
+            margin-right: 65px;
+        }
+    }
+
 
  
