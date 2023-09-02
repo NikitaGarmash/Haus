@@ -1,18 +1,24 @@
 .reviews{
     height: 227px;
     margin-top: 55px;
-    .col-md-4{
-        padding-left: 50px;
-        .review-box{
-            width: 330px;
-            text-align: center;
-            font-size: 18px;
-            line-height: 32px;
-            p{
+    
+        .row{
+            display: flex;
+            justify-content: space-around;
+            .review-box{
+                width: 330px;
+                padding-left: 50px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 32px;
                 margin-bottom: 30px;
+                p{
+                    margin-bottom: 30px;
+                }
             }
         }
-    }
+        
+    
     hr{
         margin-top: 30px;
     }

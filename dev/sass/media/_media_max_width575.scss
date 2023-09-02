@@ -1,3 +1,21 @@
 @media screen and (max-width: 575px) {
-    
+    .first-screen{
+        .front-box{
+            margin-left: 50px !important;
+            h2{
+                font-size: 52px !important;
+                line-height: 60px;
+                margin-bottom: 55px !important;
+            }
+        }
+        
+    }
+    .ingredients {
+        .ingred {
+            .info-box {
+                width: 100% !important;
+                padding-left: 10px;
+            }
+        }
+    }
 }

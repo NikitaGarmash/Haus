@@ -1,4 +1,48 @@
 @media screen and (max-width: 1024px) {
+    .ingredients {
+        height: 2500px;
+        .ing-title{
+            h2{
+                font-size: 48px;
+                margin-top: 120px;
+                margin-bottom: 80px;
+            }
+        }
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ingred {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+            .info-box{
+                align-items: center;
+                max-width: 1000px;
+                
+            }
+            .img-box{
+                .best-seller, .best-seller-2{
+                    display: none;
+                }
+            }
+        }
+    }
+    footer{
+        .contact{
+            margin-right: 100px !important;
+        }
+        .explore{
+            display: none;
+        }
+        .follow{
+            display: none;
+        }
+        .down-line{
+            display: none;
+        }
+    }
 }
 
 

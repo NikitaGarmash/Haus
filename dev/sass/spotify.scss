@@ -1,6 +1,9 @@
 .spotify {
     padding-top: 55px;
     background-image: url(assets/img/spotify.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 568px;
     text-align: center;
 
@@ -39,12 +42,13 @@
         .social {
             display: flex;
             justify-content: space-evenly;
+
             a {
                 color: #fff;
                 text-decoration: none;
             }
         }
 
-        
+
     }
 }

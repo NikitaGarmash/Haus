@@ -1,0 +1,38 @@
+@media screen and (max-width: 991px) {
+    .first-screen{
+        .navbar{
+            padding-top: 19px;
+            padding-bottom: 17px;
+        }
+        .navbar-nav{
+            text-align: center;
+            padding: 34px 0 28px;
+    }
+    
+        .nav-link{
+            font-size: 24px;
+            line-height: 200%;
+            text-align: center;
+            color: #fff;
+            padding-left: 0 !important;
+        }
+    
+        .navbar-collapse{
+            background-color:  #a36c5ef7;
+            margin: 0 -10px 0;
+            transition: 1s;
+            transform: translate(0, 15px);
+            text-align: center;
+        }
+    
+        .btn{
+            
+            justify-content: center;
+            margin: 0 auto 60px;
+            width: 100%;
+            padding: 22px 26.7px;
+            letter-spacing: 0.6px;
+            max-width: 295px;
+        }
+    }
+}
